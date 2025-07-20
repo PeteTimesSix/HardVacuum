@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BodyPartDef[defName="Head"]</xpath>
+		<value>
+            <canBeVacuumBurnt>false</canBeVacuumBurnt>
+        </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BodyPartDef[defName="Neck"]</xpath>
+		<value>
+            <canBeVacuumBurnt>false</canBeVacuumBurnt>
+        </value>
+	</Operation>
+</Patch>

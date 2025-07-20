@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <DamageDef>
+    <defName>TV_SoftTissueVacuumBurn</defName>
+    <label>soft tissue vacuum burn</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <deathMessage>{0} has died of vacuum burns.</deathMessage>
+    <hediff>TV_SoftTissueVacuumBleed</hediff>
+    <makesBlood>true</makesBlood>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <defaultArmorPenetration>0</defaultArmorPenetration>
+  </DamageDef>
+
+</Defs>
