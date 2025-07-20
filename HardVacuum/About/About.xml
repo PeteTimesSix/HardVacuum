@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Hard Vacuum</name>
+	<author>PeteTimesSix</author>  
+	<packageId>PeteTimesSix.HardVacuum</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<url></url>
+	<modDependencies>
+      <li>
+        <packageId>brrainz.harmony</packageId>
+        <displayName>Harmony</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      </li>
+    </modDependencies>
+	<loadBefore>
+	</loadBefore>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+	<description>
+10 seconds of useful conciousness, 30 seconds until severe long term damage, 90 seconds until death. -NASA, probably
+	
+Modifies Odyssey's vacuum exposure mechanics to be more true to life. Short term exposure will no longer result in instant vacuum burns. Longer exposure is no longer instantly lethal upon hitting 100%, but vacuum burns accumulate much faster and can also affect soft tissue (eyes, tongue, nasal cavity, lungs and stomach), potentially destroying the affected body part entirely. Additionally, severe exposure to vacuum will also result in delayed-onset decompression sickness.
+	</description>
+</ModMetaData>

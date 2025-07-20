@@ -3,7 +3,7 @@
 	<Operation Class="PatchOperationAttributeSet">
 		<xpath>Defs/HediffGiverSetDef[defName="OrganicStandard"]/hediffGivers/li[@Class="HediffGiver_VacuumBurn"]</xpath>
   		<attribute>Class</attribute>
-		<value>PeteTimesSix.TrueVacuum.HediffGiver_TrueVacuumBurn</value>
+		<value>PeteTimesSix.HardVacuum.HediffGiver_HardVacuumBurn</value>
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">

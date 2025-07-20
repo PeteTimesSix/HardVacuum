@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>embedded</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\TrueVacuum\1.6\Assemblies\</OutputPath>
+    <OutputPath>..\HardVacuum\1.6\Assemblies\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -26,7 +26,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>embedded</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\TrueVacuum\1.6\Assemblies\</OutputPath>
+    <OutputPath>..\HardVacuum\1.6\Assemblies\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -37,11 +37,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HediffDefOf_Custom.cs" />
-    <Compile Include="HediffGiver_TrueVacuumBurn.cs" />
+    <Compile Include="HediffGiver_HardVacuumBurn.cs" />
     <Compile Include="PatchOps\PatchOperationAddOrReplace.cs" />
     <Compile Include="PatchOps\SharedUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TrueVacuum_Mod.cs" />
+    <Compile Include="HardVacuum_Mod.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 using Verse;
 using static HarmonyLib.AccessTools;
 
-namespace PeteTimesSix.TrueVacuum
+namespace PeteTimesSix.HardVacuum
 {
-    public class HediffGiver_TrueVacuumBurn : HediffGiver_VacuumBurn
+    public class HediffGiver_HardVacuumBurn : HediffGiver_VacuumBurn
     {
         public static SimpleCurve field_vacuumBurnRate;
         public static IntRange field_burnDamageRange;
@@ -50,7 +50,7 @@ namespace PeteTimesSix.TrueVacuum
         private static readonly IntRange softTissueBurnDamageRange = new IntRange(4, 8);
 
 
-        static HediffGiver_TrueVacuumBurn()
+        static HediffGiver_HardVacuumBurn()
         {
             field_vacuumBurnRate = StaticFieldRefAccess<SimpleCurve>(typeof(HediffGiver_VacuumBurn), "VacuumSecondsBurnRate");
             field_burnDamageRange = StaticFieldRefAccess<IntRange>(typeof(HediffGiver_VacuumBurn), "BurnDamageRange");

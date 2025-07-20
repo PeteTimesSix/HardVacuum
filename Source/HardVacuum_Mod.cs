@@ -7,28 +7,28 @@ using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
 
-namespace PeteTimesSix.TrueVacuum
+namespace PeteTimesSix.HardVacuum
 {
-    public class TrueVacuum_Mod : Mod
+    public class HardVacuum_Mod : Mod
     {
-        public static TrueVacuum_Mod ModSingleton { get; private set; }
+        public static HardVacuum_Mod ModSingleton { get; private set; }
 
         public static Harmony Harmony { get; internal set; }
 
-        public TrueVacuum_Mod(ModContentPack content) : base(content)
+        public HardVacuum_Mod(ModContentPack content) : base(content)
         {
             ModSingleton = this;
 
-            Harmony = new Harmony("PeteTimesSix.TrueVacuum");
+            Harmony = new Harmony("PeteTimesSix.HardVacuum");
             Harmony.PatchAll();
         }
     }
 
 
     [StaticConstructorOnStartup]
-    public static class TrueVacuum_PostInit
+    public static class HardVacuum_PostInit
     {
-        static TrueVacuum_PostInit()
+        static HardVacuum_PostInit()
         {
         }
     }
