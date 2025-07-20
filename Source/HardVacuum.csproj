@@ -7,8 +7,8 @@
     <ProjectGuid>{ADF1903C-16FF-41A9-ABDE-F9EA563BCC91}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PeteTimesSix.TrueVacuum</RootNamespace>
-    <AssemblyName>TrueVacuum</AssemblyName>
+    <RootNamespace>PeteTimesSix.HardVacuum</RootNamespace>
+    <AssemblyName>HardVacuum</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

@@ -13,6 +13,11 @@
         <displayName>Harmony</displayName>
         <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
       </li>
+      <li>
+        <packageId>ludeon.rimworld.odyssey</packageId>
+        <displayName>Odyssey</displayName>
+        <steamWorkshopUrl>steam://url/3022790/RimWorld__Odyssey/</steamWorkshopUrl>
+      </li>
     </modDependencies>
 	<loadBefore>
 	</loadBefore>
